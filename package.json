@@ -1,0 +1,14 @@
+{
+  "name": "fluid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass examples/08-sass.scss examples/08-sass.css"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "poly-fluid-sizing": "^1.1.0"
+  }
+}

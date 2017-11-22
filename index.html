@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fluid</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: orange;
+            text-align: center;
+            line-height: 1.3rem;            
+        }
+
+        html {
+            font-size: 22px;
+        }
+
+        @media (min-width: 600px) {
+            html {
+                font-size: calc(0.55556vw + 18.66667px);
+            }
+        }
+
+        @media (min-width: 960px) {
+            html {
+                font-size: calc(3.125vw - 6px);
+            }
+        }
+
+        @media (min-width: 1280px) {
+            html {
+                font-size: 34px;
+            }
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        h1 {
+            font-size: 4.2272727rem;
+            line-height: 5.2727273rem;
+            margin-top: 1.3181818rem;
+            margin-bottom: 2.6363636rem;
+          }
+
+        h3 {
+            font-size: 1.6363636rem;
+            line-height: 2.6363636rem;
+            margin-top: 1.3181818rem;
+            margin-bottom: 0rem;
+          }
+
+        h4 {
+            font-size: 1rem;
+            line-height: 1.3181818rem;
+            margin-top: 1.3181818rem;
+            margin-bottom: 0rem;
+          }
+
+        p {
+            margin-top: 0rem;
+            margin-bottom: 1.3181818rem;
+          }
+
+        .resources {
+            font-size: 0.618rem;
+        }
+
+        .resource__item {
+            font-size: 1em;
+            margin-bottom: 1.3181818em;            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fluid Typograhpy</h1>
+    <div>
+        <h3>Contents</h3>
+        <a href="./examples/01-viewport.html">
+            <p>01 - Viewport</p>
+        </a>
+        <a href="./examples/02-em.html">
+            <p>02 - EM</p>
+        </a>
+        <a href="./examples/03-minmax.html">
+            <p>03 - MinMax</p>
+        </a>
+        <a href="./examples/04-scalerate.html">
+            <p>04 - ScaleRate</p>
+        </a>
+        <a href="./examples/05-slope.html">
+            <p>05 - Slope</p>
+        </a>
+        <a href="./examples/06-polynomialfit.html">
+            <p>06 - PolynomialFit</p>
+        </a>
+        <a href="./examples/07-aproximation.html">
+            <p>07 - Aproximation</p>
+        </a>
+        <a href="./examples/08-sass.html">
+            <p>08 - SASS</p>
+        </a>
+        <a href="./examples/09-rem.html">
+            <p>09 - REM</p>
+        </a>
+        <a href="./examples/10-verticalrhythm.html">
+            <p>10 - VerticalRhythm</p>
+        </a>
+        <a href="./examples/11-modularscale.html">
+            <p>11 - ModularScale</p>
+        </a>
+    </div>
+    <div>
+        <h3>Additional resources</h3>
+        <div class="resources">
+            <a href="https://www.smashingmagazine.com/2016/05/fluid-typography/">
+                <p class="resource__item">Responsive And Fluid Typography With vh And vw Units</p>
+            </a>
+            <a href="https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/">
+                <p class="resource__item">Fluid Responsive Typography With CSS Poly Fluid Sizing</p>
+            </a>
+            <a href="https://alistapart.com/article/more-meaningful-typography">
+                <p class="resource__item">More Meaningful Typography</p>
+            </a>
+            <a href="https://24ways.org/2006/compose-to-a-vertical-rhythm/">
+                <p class="resource__item">Compose to a Vertical Rhythm</p>
+            </a>
+            <a href="https://www.gridlover.net/">
+                <p class="resource__item">Gridlover</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ScaleRate</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: orange;
+            text-align: center;
+            justify-content: center;
+        }
+
+        html {
+            font-size: calc(16px + (34 - 16) * (100vw - 600px) / (1280-600));
+        }
+
+        p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="04-scalerate.png">
+    <p>min_font_size + (max_font_size - min_font_size) * (100vw - min_screen_size) / (max_screen_size - min_screen_size)</p>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@import '../node_modules/poly-fluid-sizing/_poly-fluid-sizing.scss';
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+}
+
+html {
+    @include poly-fluid-sizing('font-size', (600px:22px, 960px:24px, 1280px:34px));
+}

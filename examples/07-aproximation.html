@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aproximation</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: orange;
+            text-align: center;
+            justify-content: center;
+        }
+        html {
+            font-size: 22px;
+        }
+       
+        @media screen and (min-width:600px) {
+            html {
+                font-size: calc(0.00556 * 100vw + 18.7px);
+            }
+        }
+        @media screen and (min-width:960px) {
+            html {
+                font-size: calc(0.0313 * 100vw -6px);
+            }
+        @media screen and (min-width:1280px){
+            html {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="07-aproximation.png">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque suscipit consectetur non ducimus! Fuga quia natus aperiam impedit veritatis, voluptatem, ipsa nobis reprehenderit expedita quaerat blanditiis enim neque quis!</p>
+</body>
+
+</html>

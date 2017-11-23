@@ -1,0 +1,8 @@
+@import './autoprefixer.css';
+
+.item {
+    color: red;
+    &__title {
+        color: blue;
+    }
+}

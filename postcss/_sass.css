@@ -1,0 +1,15 @@
+/* https://github.com/postcss/autoprefixer/tree/master/lib/hacks */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    color: red;
+}
+
+.item__title {
+        color: blue;
+    }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dG9wcmVmaXhlci5jc3MiLCJzYXNzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtRUFBbUU7O0FBRW5FO0lBQ0ksY0FBYztJQUNkLHVCQUF1QjtDQUMxQjs7QUNIRDtJQUNJLFdBQVc7Q0FJZDs7QUFIRztRQUNJLFlBQVk7S0FDZiIsImZpbGUiOiJfc2Fzcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBodHRwczovL2dpdGh1Yi5jb20vcG9zdGNzcy9hdXRvcHJlZml4ZXIvdHJlZS9tYXN0ZXIvbGliL2hhY2tzICovXG5cbi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbn0iLCJAaW1wb3J0ICcuL2F1dG9wcmVmaXhlci5jc3MnO1xuXG4uaXRlbSB7XG4gICAgY29sb3I6IHJlZDtcbiAgICAmX190aXRsZSB7XG4gICAgICAgIGNvbG9yOiBibHVlO1xuICAgIH1cbn0iXX0= */

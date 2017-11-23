@@ -1,0 +1,6 @@
+/* https://github.com/postcss/autoprefixer/tree/master/lib/hacks */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

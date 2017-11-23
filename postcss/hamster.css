@@ -1,0 +1,11 @@
+@hamster {
+    font-size: 16px;
+    line-height: 1.5;
+    font-ratio: golden;
+    unit: rem;
+    px-fallback: true;
+}
+
+body {
+    @baseline;
+}

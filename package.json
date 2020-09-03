@@ -15,7 +15,7 @@
   "dependencies": {
     "autoprefixer": "^7.1.6",
     "cssnano": "^3.10.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "poly-fluid-sizing": "^1.1.0",
     "postcss": "^6.0.14",
     "postcss-andalusian-stylesheets": "0.0.2",
